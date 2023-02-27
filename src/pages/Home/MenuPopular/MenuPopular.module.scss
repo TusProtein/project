@@ -1,0 +1,12 @@
+.wrapper {
+}
+.extend {
+  padding-left: 48px;
+  margin-top: -20px;
+  font-weight: 400;
+  font-size: 1.1em;
+  cursor: pointer;
+  &:hover {
+    color: #757575;
+  }
+}

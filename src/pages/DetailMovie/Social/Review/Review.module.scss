@@ -1,0 +1,29 @@
+.content {
+  width: 100%;
+  padding: 20px;
+  border-radius: 10px;
+  border: 3px solid #c0c0c0;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 10%);
+  display: flex;
+  flex-direction: column;
+  .reviewer {
+    display: flex;
+    align-items: center;
+    .img-reviewer {
+      width: 64px;
+      border-radius: 51%;
+      margin-right: 20px;
+    }
+    .infor-review {
+      .infor-reviewer {
+      }
+      .time {
+        font-size: 1.4rem;
+      }
+    }
+  }
+
+  .review {
+    padding: 20px 0px 0px 84px;
+  }
+}

@@ -1,0 +1,142 @@
+.wrapper {
+  width: 100%;
+  height: 570px;
+  background-image: url("https://www.themoviedb.org/t/p/original/eU3IYWXCZoNjZxMCIX2XmIFGpHt.jpg");
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+
+  .content {
+    width: 75%;
+    height: 100%;
+    padding: 35px 40px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+
+    .poster {
+      display: flex;
+      flex-direction: column;
+      flex: 0.24;
+      .img-poster {
+        width: 100%;
+        border-radius: 10px 10px 0px 0px;
+      }
+      .offer {
+        background-color: #032541;
+        flex: 1;
+        border-radius: 0px 0px 10px 10px;
+      }
+    }
+
+    .inforMovie {
+      flex: 0.71;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      .title {
+        margin-bottom: 10px;
+
+        .name {
+          font-family: "Source Sans Pro", Arial, sans-serif;
+          font-size: 3.5rem;
+          font-weight: 700;
+          color: #fff;
+        }
+        .type {
+          width: 55%;
+          display: flex;
+          justify-content: space-between;
+          font-size: 1em;
+          .type-age {
+            font-size: 12px;
+            padding: 0px 4px;
+            border: 1px solid #fff;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+          }
+        }
+      }
+      .actions {
+        width: 65%;
+        margin-bottom: 15px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .user-rate {
+          display: flex;
+          align-items: center;
+          .rate {
+            width: 46px;
+            height: 46px;
+            background-color: #081c22;
+            color: #fff;
+            border-radius: 51%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          .title-rate {
+            font-weight: 700;
+            margin-left: 6px;
+            white-space: pre-line;
+          }
+        }
+
+        .action-item {
+          width: 38px;
+          height: 38px;
+          background-color: #032541;
+          color: #fff;
+          font-size: 1rem;
+          border-radius: 51%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .play-trailer {
+          color: #fff;
+          cursor: pointer;
+
+          .play {
+            margin-left: 0.8rem;
+          }
+        }
+      }
+      .overview {
+        display: flex;
+        flex-direction: column;
+        .overview-tagline {
+          font-style: italic;
+          margin-bottom: 10px;
+        }
+        .overview-title {
+          margin-bottom: 10px;
+        }
+        .overview-content {
+          margin-bottom: 10px;
+        }
+
+        .overview-product {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: flex-start;
+          .element {
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 10px;
+            .name-productor {
+              font-weight: bold;
+            }
+            .position {
+              font-size: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+}

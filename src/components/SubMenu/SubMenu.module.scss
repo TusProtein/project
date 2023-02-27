@@ -1,0 +1,22 @@
+.wrapper {
+  .content {
+    display: flex;
+    align-items: center;
+    .item {
+      margin-right: 30px;
+      font-size: 1.6rem;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+
+      &:active {
+        color: #8b8b8b;
+      }
+    }
+
+    .isActive {
+      border-bottom: 2px solid black;
+    }
+  }
+}

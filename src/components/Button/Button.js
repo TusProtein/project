@@ -11,8 +11,6 @@ function Button({ outline = false, children, ...passProps }) {
     ...passProps,
   });
 
-  console.log(classes);
-
   return (
     <Component className={classes}>
       <span>{children}</span>

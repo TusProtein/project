@@ -1,0 +1,21 @@
+.wrapper {
+  padding: 35px 40px;
+  display: flex;
+  flex-direction: column;
+  .header {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    .title {
+      margin-right: 50px;
+      display: flex;
+      align-items: center;
+    }
+  }
+  .content {
+    display: flex;
+    flex-direction: row;
+    overflow-x: auto;
+  }
+}

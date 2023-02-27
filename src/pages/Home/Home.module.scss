@@ -1,0 +1,7 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: var(--default-layout-width);
+  min-height: 100px;
+}

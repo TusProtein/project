@@ -1,0 +1,21 @@
+.wrapper {
+  width: 250px;
+  margin: 10px;
+  display: flex;
+  flex-direction: column;
+  .poster {
+    .image {
+      border-radius: 10px;
+      width: 250px;
+    }
+  }
+
+  .infor {
+    display: flex;
+    justify-content: space-between;
+    .name {
+    }
+    .rate {
+    }
+  }
+}
