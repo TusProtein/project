@@ -1,0 +1,42 @@
+.wrapper{
+    height: var(--default-layout-hearder-height);
+    width: 100%;
+    background-color: var(--primary-color);
+    box-shadow: 0px 1px 1px rgb(0 0 0 / 12%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .inner{
+        width: var(--default-layout-width);
+        height: var(--default-layout-horizontal-spacer);
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .navigation {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+
+            a{
+                display: flex;
+                align-items: center;
+            }
+            img{
+                width: 154px;
+                margin-right: 8px;
+            }
+
+        }
+
+        .actions{
+            display: flex;
+            align-items: center;
+            
+        }
+
+        
+    }
+
+}

@@ -1,0 +1,39 @@
+@import url('normalize.css');
+
+:root {
+    --primary-color: #032541;
+    --black: #000;
+
+    //Default layout
+    --default-layout-hearder-height: 64px;
+    --default-layout-width: 1300px;
+    --default-layout-horizontal-spacer: 40px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-family: 'Source Sans Pro', Arial, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+}
+
+button,
+input,
+[tabindex] {
+    outline: none;
+    border: none;
+}
+
+a[href] {
+    text-decoration: none;
+}
